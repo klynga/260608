@@ -1,4 +1,4 @@
-\documentclass[pdf,mathserifaspectratio=169]{beamer} % , a4, handout
+\documentclass[pdf,mathserifaspectratio=169]{beamer}
 \usepackage[orientation=landscape,size=custom,width=16,height=9,scale=0.5,debug]{beamerposter}
 \usepackage{etex}
 \usetheme{ltg}
@@ -29,6 +29,7 @@
 \usepackage{natbib}
 \usepackage{apalike}
 \bibliographystyle{apalike}
+
 \input{macros}
 
 \usepackage{latexsym}
@@ -38,8 +39,6 @@
 \usepackage{adjustbox}
 
 \usepackage{pifont}\newcommand{\cmark}{\ding{51}}\newcommand{\xmark}{\ding{55}}
-
-\newfont{\titlehvr}{phvr at 48pt}
 
 \definecolor{oe}{rgb}{0,0,1}
 \definecolor{DarkBlue}{rgb}{0.1,0.1,0.5}
@@ -63,7 +62,6 @@
 
 \begin{document}
 
-%\iffalse
 \title[]{Forskning og utvikling for store, åpne språkmodeller i Norge}
 \author[]{Yngvil Beyer, Jon Atle Gulla, \alert{Lilja Øvrelid}, Stephan Oepen\vskip -4ex}
 \date[]{\color{DarkBlue}8.\ juni 2026 -- Språkmodeller og digital selvråderett}
@@ -116,17 +114,6 @@
     \end{column}
   \end{columns}
 \end{frame}
-
-\iffalse
-\begin{frame}[fragile]\includelogo % oe
-  \frametitle{Eksempel på hvordan lime inn fra PDF}
-  \begin{center}
-    \vspace*{-2.5ex}
-    \fboxsep 0pt
-    \fbox{\includegraphics[width=\textwidth, page=2, trim={0.6cm 1cm 1.5cm 2cm}, clip]{openeurollm}}\\[1ex]
-  \end{center}
-\end{frame}
-\fi
 
 \begin{frame}[fragile]\includelogo
   \frametitle{2024:\ M\'imir-oppdraget fra Kulturdepartementet}
